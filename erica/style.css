@@ -32,8 +32,13 @@ body{
 
 .imagem{
 
-    width: 13%;
-    margin: 0 0 0 36em;
+    width: 10%;
+    margin: 0 0 1px 37em;
+    margin-top: 7px;
+    
+}
+
+.titulo-principal{
     margin-top: 2px;
 }
 
@@ -76,7 +81,29 @@ font-size: 60px;
     background-color: var(--fundo-campo);
 }
 
+.conteudo{
+    width: 98%;
+    margin:0 auto;
+}
+
 .parametro{
     font-family: var(--fonte2);
-    font-size: 15px;
+    font-size: 20px;
+    background-color: var(--fundo-senha);
+    border-radius: 11px;
+    margin-top: 25px;
+    padding: 3px;
 }
+
+.paramentro-titulo{
+    font-size: 40px;
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: center;
+}
+
+.parametro-senha{
+    font-size: 20px;
+
+}
+
