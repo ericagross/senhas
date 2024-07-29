@@ -92,7 +92,7 @@ font-size: 60px;
     background-color: var(--fundo-senha);
     border-radius: 11px;
     margin-top: 25px;
-    padding: 3px;
+    padding: 15px;
 }
 
 .paramentro-titulo{
@@ -104,6 +104,31 @@ font-size: 60px;
 
 .parametro-senha{
     font-size: 20px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #8A77FF;
+    margin: 30px;
 
 }
 
+.parametro-coluna-senha{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
+.parametro-senha-botoes{
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.parametro-senha-botao{
+    width: 30px;
+    
+
+}
