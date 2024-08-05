@@ -96,7 +96,7 @@ font-size: 60px;
 }
 
 .paramentro-titulo{
-    font-size: 40px;
+    font-size: 45px;
     font-family: var(--fonte);
     display: flex;
     justify-content: center;
@@ -108,13 +108,16 @@ font-size: 60px;
     width: 50%;
     background-color: #8A77FF;
     margin: 30px;
+    border-radius: 10px;
 
 }
 
 .parametro-coluna-senha{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content:center;
+    flex-direction:row;
+    padding: 10px;
+
 }
 
 
@@ -124,11 +127,34 @@ font-size: 60px;
 .parametro-senha-botoes{
     font-size: 20px;
     border-radius: 10px;
-    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:10px ;
+    padding: 15px;
 }
 
 .parametro-senha-botao{
-    width: 30px;
-    
+    width: 50px;
+    border-radius: 8px;
+    background-color: var(--cor-do-titulo);
+    color: var(--cor-da-letra);
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.parametro-senha-texto{
+    font-size: 20px;
+    color: var(--cor-do-titulo);
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 35px;
+    margin:3px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    padding: 10px;
 
 }
