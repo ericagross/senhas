@@ -158,3 +158,16 @@ font-size: 60px;
     padding: 10px;
 
 }
+
+label{
+    font-size: 25px;
+
+}
+
+.checkbox{
+    cursor: pointer; 
+    width: 10%;
+    height: 20px;
+    
+
+}
