@@ -66,6 +66,7 @@ border-radius: 35px;
 padding: 5px;
 border-bottom: 5px solid var(--borda);
 font-size: 60px;
+
 }
 
 #campo-senha{
@@ -160,7 +161,7 @@ font-size: 60px;
 }
 
 label{
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -168,6 +169,20 @@ label{
     cursor: pointer; 
     width: 10%;
     height: 20px;
-    
+}
 
+.barra{
+    width:95%;
+    height: 40px;
+    background-color:#3b9af3;
+    
+}
+
+.fraco{
+    height: 40px;
+    width: 30%;
+    background-color: #f70000;
+    position:relative;
+    bottom: 40px;
+    
 }
