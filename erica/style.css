@@ -111,6 +111,7 @@ font-size: 60px;
     margin: 30px;
     border-radius: 10px;
 
+
 }
 
 .parametro-coluna-senha{
@@ -175,7 +176,7 @@ label{
     width:95%;
     height: 40px;
     background-color:#3b9af3;
-    
+    margin-left:10px ;
 }
 
 .fraco{
@@ -184,5 +185,29 @@ label{
     background-color: #f70000;
     position:relative;
     bottom: 40px;
+    margin-left:10px ;
     
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+} 
+
+.media{
+    height: 40px;
+    width: 50%;
+    background-color: #def700;
+    position:relative;
+    bottom: 40px;
+    margin-left:10px ;
+}
+
+.forte{
+    height: 40px;
+    width: 95%;
+    background-color: #00f700;
+    position:relative;
+    bottom: 40px;
+    margin-left:10px ;
 }
