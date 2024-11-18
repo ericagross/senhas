@@ -5,9 +5,8 @@
 --cor-do-titulo:#510192 ;
 --cor-de-fundo: #8A77FF;  
 --fundo-senha: #5229A8;
---fundo-campo: #ada4f5; 
 --fundo-texto:#5229A8; 
---borda:#3b9af3;
+--borda:#a497fa;
 --fonte:"Playball", cursive;
 --fonte2:"Roboto", sans-serif;
 }
@@ -25,58 +24,28 @@ body{
     justify-content: center;
     padding:20px;
     font-family: "Playball", cursive; 
-    font-weight:900;
     
 }
 
 
 .imagem{
 
-    width: 14%;
-    margin: 0 0 0 36em;
-    margin-top: 10px;
+    width: 5%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteudo-titulo{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     max-width: 100%;
-    margin-top: 10px;
+    margin: 12px;
     font-family: var(--fonte2);
 }
 
 .titulo-secundario{
-    font-size: 28px;
+    font-size: 22px;
     justify-content:flex-start;
     align-items: start;
-    font-weight: 400;
-    margin-top:20px;
-}
-
-
-.conteudo-senha{
-margin-top: 20px;
-background-color: var(--fundo-senha);
-border-radius: 35px;
-padding: 5px;
-border-bottom: 5px solid var(--borda);
-font-size: 60px;
-}
-
-#campo-senha{
-    background-color: var(--cor-da-letra);
-    color: var(--cor-do-titulo);
-    width: 80%;
-    font-size: 38px;
-    border-radius: 30px;
-}
-
-#campo-senha:focus{
-    outline:none;
-    background-color: var(--fundo-campo);
-}
-
-.parametro{
-    font-family: var(--fonte2);
-    font-size: 15px;
 }
